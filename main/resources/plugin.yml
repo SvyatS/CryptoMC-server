@@ -1,0 +1,8 @@
+name: TestPlug
+version: '${project.version}'
+main: svyats.testplug.TestPlug
+api-version: '1.20'
+commands:
+  send-tx:
+    description: send money to user
+    usage: /<command> <receiver> <amount>
